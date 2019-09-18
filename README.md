@@ -1,0 +1,1 @@
+# Capturando voz com a biblioteca SpeechRecognition

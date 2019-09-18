@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Reconhecimento de voz</title>
+	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<script src="https://kit.fontawesome.com/640a71495f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p id="ola">Olá, você falou:</p>
+	<div id="transcription"></div>
+
+	<button id="gravar">
+		<i class="fa fa-microphone"></i>
+	</button>
+
+	<p id="status">status: <span>aguardando permissão</span></p>
+    <span id="ws-unsupported" class="hidden">API não suportada</span>
+
+	<button id="stop">
+		<i class="far fa-stop-circle"></i>
+	</button>
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
